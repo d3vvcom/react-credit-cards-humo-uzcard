@@ -295,20 +295,12 @@ $rccs-humo-logo: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAB9AAAASvCAYAAABR
       .rccs__card__background {
         background: $rccs-uzcard-background;
       }
-
-      // .rccs__issuer {
-      //   background-size: 75%;
-      // }
     }
 
     &--humo {
       .rccs__card__background {
         background: $rccs-humo-background;
       }
-
-      // .rccs__issuer {
-      //   background-size: 75%;
-      // }
     }
 
     &--visa {
