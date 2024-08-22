@@ -295,11 +295,19 @@ $rccs-humo-logo: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAB9AAAASvCAYAAABR
       .rccs__card__background {
         background: $rccs-uzcard-background;
       }
+
+      .rccs__issuer {
+        background-image: url($rccs-uzcard-logo);
+      }
     }
 
     &--humo {
       .rccs__card__background {
         background: $rccs-humo-background;
+      }
+
+      .rccs__issuer {
+        background-image: url($rccs-humo-logo);
       }
     }
 
@@ -312,18 +320,6 @@ $rccs-humo-logo: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAB9AAAASvCAYAAABR
     &--visa-electron {
       .rccs__issuer {
         background-image: url($rccs-visa-electron-logo);
-      }
-    }
-    
-    &--uzcard {
-      .rccs__issuer {
-        background-image: url($rccs-uzcard-logo);
-      }
-    }
-
-    &--humo {
-      .rccs__issuer {
-        background-image: url($rccs-humo-logo);
       }
     }
   }
