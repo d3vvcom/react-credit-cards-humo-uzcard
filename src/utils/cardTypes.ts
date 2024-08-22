@@ -37,3 +37,27 @@ export const visaElectron = {
     size: 3,
   },
 };
+
+export const humo = {
+  niceType: "Humo",
+  type: "humo",
+  patterns: [9860],
+  gaps: [4, 8, 12],
+  lengths: [16],
+  code: {
+    name: "CVV",
+    size: 3,
+  },
+};
+
+export const uzcard = {
+  niceType: "Uzcard",
+  type: "uzcard",
+  patterns: [8600],
+  gaps: [4, 8, 12],
+  lengths: [16],
+  code: {
+    name: "CVV",
+    size: 3,
+  },
+};

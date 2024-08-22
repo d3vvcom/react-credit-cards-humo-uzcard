@@ -1,4 +1,4 @@
-# React Credit Cards 2 - Community Package
+# React Credit Cards Humo Uzard - Community Package
 
 > This repository is a hard-fork from the original [react-credit-cards](https://github.com/amaroteam/react-credit-cards) package. The main purpose is to add HUMO and UZCARD payment types
 

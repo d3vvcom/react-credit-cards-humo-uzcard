@@ -1,6 +1,7 @@
 import { useState } from "react";
 
-import ReactCreditCards, { Focused } from "../..";
+// import ReactCreditCards, { Focused } from "../..";
+import ReactCreditCards, { Focused } from "../../src";
 import "./App.css";
 import "../../dist/es/styles-compiled.css";
 
@@ -15,6 +16,8 @@ const CardNumbers = [
   "371449635398431",
   5105105105105100,
   2223003122003222,
+  8600121231314242,
+  9860350189547685,
 ];
 const CardNames = ["", "John Doe"];
 const CardFocusStates: Focused[] = ["", "number", "name", "cvc", "expiry"];
